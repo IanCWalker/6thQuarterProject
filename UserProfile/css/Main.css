@@ -1,0 +1,20 @@
+
+table, th, td {
+    border: 1px solid black;
+}
+col.race {background-color: #F4C6BC;}
+col.gender {background-color: #F4C6BC}
+col.strength {background-color: #F4C6BC}
+col.intelligence {background-color: #F4C6BC}
+col.willpower {background-color: #F4C6BC}
+col.agility {background-color: #F4C6BC}
+col.speed {background-color: #F4C6BC}
+col.endurance {background-color: #F4C6BC}
+col.personality {background-color: #F4C6BC}
+col.luck {background-color: #F4C6BC}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
