@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Registration</title>
+	<title>Login</title>
 
 
 <link rel="stylesheet" href="css/styles.css">
@@ -13,29 +13,26 @@
 </head>
 <body class= "loginbody">
             
-<div class ="container-fluid" >
-    <form class="form-signin" action="Registration" method="post">
+<div class ="container-fluid">
+      <form class="form-signin">
       	<img src="images/logo.png" width="290" height="72">
 
       	<h1 class="hcolor h3 mb-3 font-weight-normal">Register</h1>
           
-      	<label for="inputEmail" class="sr-only">First Name</label>
-      	<input type="username" id="inputUser" class="form-control" placeholder="First Name" name="FName" required autofocus>
-        
-        <label for="inputEmail" class="sr-only">Last Name</label>
-      	<input type="username" id="inputUser" class="form-control" placeholder="Last Name" name="LName" required autofocus>
-        
+      	<label for="inputEmail" class="sr-only">Username</label>
+      	<input type="username" id="inputUser" class="form-control" placeholder="Username" required autofocus>
+          
         <label for="inputEmail" class="sr-only">Driver Id</label>
-      	<input type="username" id="inputDriverId" class="form-control" placeholder="Driver Id" name="DriverId" required autofocus>
+      	<input type="username" id="inputDriverId" class="form-control" placeholder="Driver Id" required autofocus>
           
       	<label for="inputPassword" class="sr-only">Password</label>
-      	<input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password" required>
+      	<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
       		<div class="checkbox mb-3 cbcolor">
         		<label>
           			<input type="checkbox" value="remember-me"> Remember me
         		</label>
       		</div>
-      	<button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+      	<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
     	<p class="mt-5 mb-3 fcolor">&copy; 2017-2018</p>
     </form>
                 
